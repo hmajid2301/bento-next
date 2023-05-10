@@ -11,19 +11,20 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: "John",
+  name: "Haseeb",
   openInNewTab: true,
-  title: "Bento",
+  title: "Start Up Page",
 
   // Clock
   twelveHourFormat: false,
   flashSeparator: false,
-  
+
   // Theme
-  theme: "bento",
+  theme: "catppuccin-frappe",
   imageBackground: false,
   imageUrl: "background.jpg", // place in ./src/assets/images/ and provide the file name. Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
-  themes: [   // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
+  themes: [
+    // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
     "arc",
     "bento",
     "catppuccin-frappe",
@@ -34,12 +35,12 @@ const CONFIG = {
     "nord",
     "sakura",
     "solarized",
-    "summer"
+    "summer",
   ],
 
   // Search Bar
   searchBar: true,
-  searchEngine: "google", // google, ddg
+  searchEngine: "whoogle", // google, ddg
   barStyle: "bento", // bento, minimal, boxy, rounded
   barPlaceholder: "", // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
@@ -60,8 +61,8 @@ const CONFIG = {
   language: "en", // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: "37.775",
-  defaultLongitude: "-122.419",
+  defaultLatitude: "51.5072",
+  defaultLongitude: "0.1276",
 
   // Autochange theme from OS preferece - The below options are all mutually exclusive. If you've got multiple set to true, the first one will be set and the rest ignored.
   changeThemeByOS: false,
@@ -84,38 +85,38 @@ const CONFIG = {
       id: "1", // entry ID, don't modify.
       name: "Github", // set the name of the card
       icon: "fab-github", // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-      link: "https://github.com/" // provide a link to the page.
+      link: "https://github.com/", // provide a link to the page.
     },
     {
       id: "2",
       name: "Mail",
       icon: "envelope",
-      link: "https://mail.protonmail.com/"
+      link: "https://mail.protonmail.com/",
     },
     {
       id: "3",
       name: "Todoist",
       icon: "list-ol",
-      link: "https://todoist.com"
+      link: "https://todoist.com",
     },
     {
       id: "4",
       name: "Calendar",
       icon: "calendar",
-      link: "https://calendar.google.com/calendar/r"
+      link: "https://calendar.google.com/calendar/r",
     },
     {
       id: "5",
       name: "Reddit",
       icon: "fab-reddit",
-      link: "https://reddit.com"
+      link: "https://reddit.com",
     },
     {
       id: "6",
       name: "Odysee",
       icon: "fab-youtube",
-      link: "https://odysee.com/"
-    }
+      link: "https://odysee.com/",
+    },
   ],
 
   secondButtonsContainer: [
@@ -123,38 +124,38 @@ const CONFIG = {
       id: "1",
       name: "Music",
       icon: "fab-spotify",
-      link: "https://open.spotify.com"
+      link: "https://open.spotify.com",
     },
     {
       id: "2",
       name: "twitter",
       icon: "fab-twitter",
-      link: "https://twitter.com/"
+      link: "https://twitter.com/",
     },
     {
       id: "3",
       name: "bot",
       icon: "fab-discord",
-      link: "https://discord.com/app"
+      link: "https://discord.com/app",
     },
     {
       id: "4",
       name: "Amazon",
       icon: "fab-amazon",
-      link: "https://amazon.com/"
+      link: "https://amazon.com/",
     },
     {
       id: "5",
       name: "Hashnode",
       icon: "fab-hashnode",
-      link: "https://hashnode.com/"
+      link: "https://hashnode.com/",
     },
     {
       id: "6",
       name: "Figma",
       icon: "fab-figma",
-      link: "https://figma.com/"
-    }
+      link: "https://figma.com/",
+    },
   ],
 
   // ┬  ┬┌─┐┌┬┐┌─┐
@@ -169,21 +170,21 @@ const CONFIG = {
       links: [
         {
           name: "Inspirational",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         },
         {
           name: "Classic",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         },
         {
           name: "Oldies",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         },
         {
           name: "Rock",
-          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-        }
-      ]
+          link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        },
+      ],
     },
     {
       icon: "coffee",
@@ -191,22 +192,22 @@ const CONFIG = {
       links: [
         {
           name: "Linkedin",
-          link: "https://www.linkedin.com"
+          link: "https://www.linkedin.com",
         },
         {
           name: "Dribbble",
-          link: "https://www.dribbble.com"
+          link: "https://www.dribbble.com",
         },
         {
           name: "Trello",
-          link: "https://www.trello.com"
+          link: "https://www.trello.com",
         },
         {
           name: "Slack",
-          link: "https://www.slack.com"
-        }
-      ]
-    }
+          link: "https://www.slack.com",
+        },
+      ],
+    },
   ],
 
   // Second Links Container
@@ -217,21 +218,21 @@ const CONFIG = {
       links: [
         {
           name: "Spotify",
-          link: "https://www.spotify.com"
+          link: "https://www.spotify.com",
         },
         {
           name: "Reddit",
-          link: "https://www.reddit.com"
+          link: "https://www.reddit.com",
         },
         {
           name: "Hashnode",
-          link: "https://www.hashnode.com"
+          link: "https://www.hashnode.com",
         },
         {
           name: "Pocket",
-          link: "https://www.pocket.com"
-        }
-      ]
+          link: "https://www.pocket.com",
+        },
+      ],
     },
     {
       icon: "fab-github",
@@ -239,22 +240,22 @@ const CONFIG = {
       links: [
         {
           name: "Front",
-          link: "https://www.reddit.com/r/Frontend/"
+          link: "https://www.reddit.com/r/Frontend/",
         },
         {
           name: "Rust",
-          link: "https://www.reddit.com/r/rust/"
+          link: "https://www.reddit.com/r/rust/",
         },
         {
           name: "Go",
-          link: "https://www.reddit.com/r/golang/"
+          link: "https://www.reddit.com/r/golang/",
         },
         {
           name: "Repos",
-          link: "https://github.com/migueravila"
-        }
-      ]
-    }
+          link: "https://github.com/migueravila",
+        },
+      ],
+    },
   ],
 
   // Set any of the below options to false to disable drawing the component on the page.
@@ -266,9 +267,8 @@ const CONFIG = {
     clock: true,
     greeter: true,
     date: true,
-    weather: true
-  }
-
+    weather: true,
+  },
 };
 
 export const config = CONFIG;

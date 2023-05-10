@@ -16,6 +16,10 @@ const engines = {
     url: "https://www.google.com/search?q=",
     display: "Google",
   },
+  whoogle: {
+    url: "http://localhost:5000/search?q=",
+    display: "Whoogle",
+  },
   ddg: {
     url: "https://duckduckgo.com/?q=",
     display: "DuckDuckGo",
